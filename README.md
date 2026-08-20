@@ -61,3 +61,12 @@ The website only inserts appointment requests. Public reads are blocked by RLS.
 - Replace the demo Unsplash images with properly licensed shop/barber photography.
 - For production appointment scheduling, add availability validation/server-side rules before confirming appointments.
 - Never put a Supabase service-role key in Vite client environment variables. Only use the public/publishable key in the browser.
+
+## Netlify environment variables
+
+Set these under Netlify -> Project configuration -> Environment variables, then redeploy:
+
+- `VITE_SUPABASE_URL` = the exact Supabase **Project URL**, e.g. `https://xxxxxxxx.supabase.co`
+- `VITE_SUPABASE_ANON_KEY` = your Supabase publishable/anon key (never the service_role/secret key)
+
+Do not include `VITE_SUPABASE_URL=` in the value, and do not paste quotes around the value.
