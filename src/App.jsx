@@ -25,7 +25,7 @@ const gallery = [
 
 const barbers = [
   ["Abdullah Jutt", "Master Barber", "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=82"],
-  ["Alasska", "Fade Specialist", "https://www.pinterest.com/pin/818247826086618753/"],
+  ["Alasska", "Fade Specialist", "https://unsplash.com/photos/man-in-black-crew-neck-t-shirt-holding-hair-brush-m-9HSRcp-5w"],
   ["Daniel Cole", "Classic Cuts", "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=600&q=82"]
 ];
 
